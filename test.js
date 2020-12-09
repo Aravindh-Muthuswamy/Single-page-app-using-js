@@ -2,11 +2,15 @@ const dom = 'hello';
 
 function sayHello(){
     function ele(){
-        const elem = "document.getElementById('content').innerHTML = 'clicked'"
+        function mes(){
+            const mess = 'clicked'
+            return `document.getElementById('content').innerHTML = '${mess}'`
+        }
+        const elem = mes()
         return elem
     }
-    const doing="compnew.html"
     const red = `
+        <h1>symbolic things to represent</h1>
         <a href="#" onclick="${ele()}" id="test-btn">Click here</a>
         <div id="content"></div>
     `
