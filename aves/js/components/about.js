@@ -1,4 +1,4 @@
 function about(){
-    return "welcome to about page"
+    return `<h3>welcome to about page</h3>`
 }
 export { about };

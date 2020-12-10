@@ -1,0 +1,15 @@
+.btn-black{
+    background-color: #000000;
+    padding: 0.1% 1% 0.1% 1%;
+    border-radius: 10px 10px 10px 10px;
+    color: #ffffff;
+}
+.btn-black:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.btn-black:active{
+    background-color: rgba(0,0,0,0.8);
+}
+.bor-solid{
+    border: 1px solid #000;
+}
